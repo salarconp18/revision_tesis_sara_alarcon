@@ -1,0 +1,7 @@
+{
+  "PROJECT_ROOT": "/content/DeepNetsForEO",
+  "DATA_ROOT": "/content/data/ISPRS",
+  "WEIGHTS_DIR": "/content/DeepNetsForEO/weights",
+  "IMAGES_DIR": null,
+  "LABELS_DIR": null
+}
