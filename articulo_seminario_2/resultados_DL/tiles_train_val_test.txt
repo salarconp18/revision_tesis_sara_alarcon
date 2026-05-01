@@ -1,0 +1,5 @@
+Datasets RGB listos.
+  train_rgb_dataset: 3,259 tiles
+  val_rgb_dataset  : 823 tiles
+  test_rgb_dataset : 479 tiles
+DataLoaders RGB listos para la fase 10.

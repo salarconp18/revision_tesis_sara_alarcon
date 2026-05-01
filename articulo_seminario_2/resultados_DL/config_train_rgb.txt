@@ -1,0 +1,2 @@
+Configuración de entrenamiento RGB:
+RGBTrainingConfig(epochs=25, learning_rate=0.0001, weight_decay=0.0001, grad_clip_norm=1.0, amp=False, early_stopping_patience=7, scheduler_mode='max', scheduler_factor=0.5, scheduler_patience=3, scheduler_min_lr=1e-06, monitor_metric='val_mean_iou', monitor_mode='max')

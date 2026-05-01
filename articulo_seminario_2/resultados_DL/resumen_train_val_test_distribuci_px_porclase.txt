@@ -1,0 +1,52 @@
+=== Resumen split: train ===
+Tiles totales        : 5,778
+Tiles conservados    : 3,259
+Tiles descartados    : 2,519
+Valid fraction — min : 0.0000
+Valid fraction — p50 : 1.0000
+Valid fraction — p95 : 1.0000
+Número de clases — p50: 1.00
+Número de clases — max: 5
+
+=== Resumen split: val ===
+Tiles totales        : 1,177
+Tiles conservados    : 823
+Tiles descartados    : 354
+Valid fraction — min : 0.0000
+Valid fraction — p50 : 1.0000
+Valid fraction — p95 : 1.0000
+Número de clases — p50: 2.00
+Número de clases — max: 5
+
+=== Resumen split: test ===
+Tiles totales        : 1,177
+Tiles conservados    : 479
+Tiles descartados    : 698
+Valid fraction — min : 0.0000
+Valid fraction — p50 : 0.0000
+Valid fraction — p95 : 1.0000
+Número de clases — p50: 0.00
+Número de clases — max: 5
+
+Distribución agregada de píxeles válidos por clase (post-filtro):
+
+TRAIN:
+  Clase 0 (fondo): 84,642,754 píxeles (40.44%)
+  Clase 1 (construccion): 69,857,579 píxeles (33.38%)
+  Clase 2 (pavimento): 48,002,596 píxeles (22.94%)
+  Clase 3 (vegetacion): 6,199,134 píxeles (2.96%)
+  Clase 4 (agua): 585,124 píxeles (0.28%)
+
+VAL:
+  Clase 0 (fondo): 24,128,227 píxeles (45.41%)
+  Clase 1 (construccion): 15,241,882 píxeles (28.68%)
+  Clase 2 (pavimento): 12,482,300 píxeles (23.49%)
+  Clase 3 (vegetacion): 1,125,426 píxeles (2.12%)
+  Clase 4 (agua): 160,797 píxeles (0.30%)
+
+TEST:
+  Clase 0 (fondo): 14,634,433 píxeles (49.33%)
+  Clase 1 (construccion): 5,005,144 píxeles (16.87%)
+  Clase 2 (pavimento): 8,763,524 píxeles (29.54%)
+  Clase 3 (vegetacion): 1,153,147 píxeles (3.89%)
+  Clase 4 (agua): 113,099 píxeles (0.38%)

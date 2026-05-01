@@ -1,0 +1,22 @@
+services:
+  jupyter_semseg:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jupyter_semseg
+
+    ports:
+      - "8888:8888"
+
+    volumes:
+      - ./work:/home/jovyan/work
+
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+    restart: unless-stopped

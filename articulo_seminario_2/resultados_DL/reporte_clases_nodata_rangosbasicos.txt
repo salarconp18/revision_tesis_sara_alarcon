@@ -1,0 +1,25 @@
+Clases encontradas en la máscara:
+  Clase 0: 123,555,519 píxeles
+  Clase 1: 90,161,852 píxeles
+  Clase 2: 69,330,322 píxeles
+  Clase 3: 8,482,744 píxeles
+  Clase 4: 861,481 píxeles
+  Clase 255: 247,049,964 píxeles
+
+Nodata declarado en máscara: 255.0
+Nodata declarado en ortofoto: 65535.0
+Nodata declarado en nDSM: -3.4028230607370965e+38
+
+Ortofoto — banda 1
+  min   : 1.000000
+  p01   : 3.000000
+  p50   : 209.000000
+  p99   : 65535.000000
+  max   : 65535.000000
+
+nDSM — banda 1
+  min   : -340282306073709652508363335590014353408.000000
+  p01   : -340282306073709652508363335590014353408.000000
+  p50   : 0.000000
+  p99   : 24.107988
+  max   : 41.349930

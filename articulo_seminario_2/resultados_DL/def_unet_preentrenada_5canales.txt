@@ -1,0 +1,11 @@
+Modelo multifuente preentrenado listo.
+  arquitectura            : Unet
+  encoder                 : resnet34
+  pesos encoder base      : imagenet
+  in_channels             : 5
+  clases salida           : 5
+  parámetros entrenables  : 24,443,221
+  model device            : cuda:0
+  criterion weight device : cuda:0
+  diagnostics patch       : {'reference_conv_name': 'conv1', 'target_conv_name': 'conv1', 'reference_in_channels': 3, 'target_in_channels': 5, 'extra_channels_init': 'mean'}
+  diagnostics load        : {'missing_keys': ['encoder.conv1.weight'], 'unexpected_keys': [], 'skipped_keys': ['encoder.conv1.weight']}

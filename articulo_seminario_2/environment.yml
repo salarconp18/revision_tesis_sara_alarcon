@@ -1,0 +1,38 @@
+name: sara_semseg
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+
+  # Base científica
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-image
+  - scikit-learn
+  - tqdm
+  - joblib
+
+  # Geoespacial / ráster
+  - rasterio
+  - gdal
+  - pyproj
+  - shapely
+  - fiona
+  - tifffile
+
+  # Jupyter
+  - ipykernel
+  - jupyterlab
+  - notebook
+
+  # Utilidades
+  - opencv
+  - pyyaml
+  - pip
+
+  - pip:
+      - albumentations
+      - segmentation-models-pytorch
+      - pillow

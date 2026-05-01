@@ -1,0 +1,11 @@
+Perfil preliminar de normalización:
+{'ortho_low': [3.0, 9.100000000000009, 20.0, 71.0], 'ortho_high': [233.0, 236.0, 239.0, 238.0], 'height_low': 0.0, 'height_high': 28.4707935333252, 'height_mean': 3.2767005373210076, 'height_std': 5.342599860411585, 'ortho_bands': (1, 2, 3, 4), 'height_band': 1, 'lower_q_ortho': 2.0, 'upper_q_ortho': 98.0, 'lower_q_height': 1.0, 'upper_q_height': 99.0}
+
+Shape de la entrada normalizada: (5, 800, 568)
+Canales esperados: ('R', 'G', 'B', 'NIR', 'HEIGHT')
+Rango aproximado RGB/NIR normalizado:
+  R: min=0.0000, max=1.0000
+  G: min=0.0000, max=1.0000
+  B: min=0.0000, max=1.0000
+  NIR: min=0.0000, max=1.0000
+HEIGHT normalizada: min=-0.6133, max=1.2141, mean=0.0474, std=0.4817

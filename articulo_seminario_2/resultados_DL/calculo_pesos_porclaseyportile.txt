@@ -1,0 +1,16 @@
+Distribución de píxeles por clase en TRAIN (post-filtro):
+  Clase 0 (fondo): 84,642,754 px | frac=40.443% | loss_weight=1.0000
+  Clase 1 (construccion): 69,857,579 px | frac=33.379% | loss_weight=1.0000
+  Clase 2 (pavimento): 48,002,596 px | frac=22.936% | loss_weight=1.0000
+  Clase 3 (vegetacion): 6,199,134 px | frac=2.962% | loss_weight=1.0000
+  Clase 4 (agua): 585,124 px | frac=0.280% | loss_weight=1.0000
+
+Sampler de entrenamiento listo.
+  Número de tiles balanceados: 3,259
+  Peso mínimo sampler       : 0.4770
+  Peso p50 sampler          : 0.8708
+  Peso p95 sampler          : 2.2442
+  Peso máximo sampler       : 4.2829
+
+Vector LOSS_CLASS_WEIGHTS listo para fases posteriores:
+[1.0000001 1.0000001 1.0000001 1.0000001 1.0000001]

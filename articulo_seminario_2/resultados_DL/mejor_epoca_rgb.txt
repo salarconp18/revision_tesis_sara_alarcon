@@ -1,0 +1,4 @@
+Entrenamiento RGB finalizado.
+  mejor época       : 24
+  mejor métrica     : 0.6741229842087989
+  tiempo total (min): 87.65

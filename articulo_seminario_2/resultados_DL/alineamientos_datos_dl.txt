@@ -1,0 +1,47 @@
+=== ORTOFOTO ===
+path: /home/jovyan/work/datos/DATOS_AJUSTADOS/orto_clip.tif
+name: orto_clip.tif
+count: 4
+height: 27538
+width: 19589
+shape_hw: (27538, 19589)
+dtype: ('uint16', 'uint16', 'uint16', 'uint16')
+crs: ESRI:103599
+transform: | 0.06, 0.00, 4960588.34|
+| 0.00,-0.06, 2172054.84|
+| 0.00, 0.00, 1.00|
+res: (0.06024280898080917, 0.06024280898080917)
+nodata: 65535.0
+bounds: BoundingBox(left=4960588.342404325, bottom=2170395.8692393457, right=4961768.43878945, top=2172054.835713059)
+
+=== NDSM ===
+path: /home/jovyan/work/datos/DATOS_AJUSTADOS/ndsm_clip_corr0.tif
+name: ndsm_clip_corr0.tif
+count: 1
+height: 27538
+width: 19589
+shape_hw: (27538, 19589)
+dtype: ('float32',)
+crs: ESRI:103599
+transform: | 0.06, 0.00, 4960588.34|
+| 0.00,-0.06, 2172054.84|
+| 0.00, 0.00, 1.00|
+res: (0.06024280898080917, 0.060242808980808964)
+nodata: -3.4028230607370965e+38
+bounds: BoundingBox(left=4960588.342404325, bottom=2170395.8692393457, right=4961768.43878945, top=2172054.835713059)
+
+=== MÁSCARA ===
+path: /home/jovyan/work/datos/DATOS_AJUSTADOS/mask_multiclase_v3.tif
+name: mask_multiclase_v3.tif
+count: 1
+height: 27538
+width: 19589
+shape_hw: (27538, 19589)
+dtype: ('uint8',)
+crs: ESRI:103599
+transform: | 0.06, 0.00, 4960588.34|
+| 0.00,-0.06, 2172054.84|
+| 0.00, 0.00, 1.00|
+res: (0.06024280898080917, 0.060242808980808964)
+nodata: 255.0
+bounds: BoundingBox(left=4960588.342404325, bottom=2170395.8692393457, right=4961768.43878945, top=2172054.835713059)

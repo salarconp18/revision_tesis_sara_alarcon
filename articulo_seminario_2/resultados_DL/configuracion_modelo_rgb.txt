@@ -1,0 +1,15 @@
+DEVICE: cuda
+
+Configuración RGB lista.
+  Modelo en device         : cuda:0
+  Criterion weight device  : cuda:0
+  Train loader batches     : 408
+  Val loader batches       : 103
+  Batch size train         : 8
+  Batch size eval          : 8
+  NUM_CLASSES              : 5
+  IGNORE_INDEX             : 255
+  Encoder                  : resnet34
+  Encoder weights          : imagenet
+  Parámetros entrenables   : 24,436,949
+  Pesos de clase           : [1.0000001 1.0000001 1.0000001 1.0000001 1.0000001]
